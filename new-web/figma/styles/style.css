@@ -1,0 +1,190 @@
+*{
+  box-sizing: border-box;
+}
+
+html ,body {
+  width: 100vw;
+  height: 1837px;
+  background-color: #fbf6f6;
+  font-family: 'Akshar', sans-serif;
+  font-family: 'Quicksand', sans-serif;
+  border: 2px solid #10ABA2;
+ border-radius: 11px;
+}
+
+/* container   section*/
+ .container {
+  width: 1108px;
+  margin: 0 auto;
+ }
+
+/* navigation bar start */
+nav{
+  width: 100%;
+  height: 80px;
+  margin-left: 7px;
+  margin-top:7px;
+  background-color: #10ABA2;
+  box-shadow: 2px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 11px; 
+}
+
+.nav-container {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.nav-items-container{
+  margin-left: auto;
+  display: flex;
+}
+
+
+.brand h1 {
+  font-size:40px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #FBF6F6;
+  text-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+  font-weight: 700;
+}
+
+.nav-item {
+  margin-left: 32px;
+}
+
+/* todo set individial link style letter on */
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:active,
+.nav-item a:hover {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+}
+
+/* profile-card-container */
+ .profile-card-container{
+   width: 1108px;
+   height: 430px;
+   background-color: #10ABA2;
+   box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+   border-radius: 11px;
+   margin-top: 44px;
+   display: flex;
+ } 
+
+ .profile-picture-container{
+  width: 424px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ .image-square-container{
+  width: 296px;
+  height: 331px;
+  border: 7px solid rgba(251,246,246,0.96);
+  border-radius: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+ }
+
+ .image-circle-container  {
+  width: 241px;
+  height: 235px;
+  border: 5px solid #FBF6F6;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+ }
+ .image-circle-container img {
+  width: 100%;
+  height: 100%;
+ }
+
+ .profile-info-container{
+  width: 680px;
+  margin-top: 50px;
+ }
+
+
+ .profile-name{
+font-size: 48px;
+font-weight: 700;
+letter-spacing: 0.045em;
+text-transform: none;
+text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+color:#FBF6F6 ;
+ }
+
+ .profile-title{
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: none;
+  color:#EBE3E3;
+  text-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+  margin-top: 5px;
+}
+
+.social-links{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.skill-chips{
+  display: flex;
+}
+
+.skill-chip{
+  background-color: rgba(251,246,246,0.96);
+  border-radius: 11px;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 7px;
+  margin-right: 10px;
+   
+}
+
+.profile-bio{
+  width: 550px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  color: rgba(251,246,246,0.96);
+  margin-top: 45px;
+}
+/* my-skills-section */
+.my-skills-section{
+  width: 1108px;
+  height: 524px;
+  background-color: #10ABA2;
+  box-shadow: 4px 4px 4px rgba(0,0,0,0.25);
+  border-radius: 11px;
+  margin-top: 55px;
+  display: flex; 
+  padding: 30px  65px ;
+}
+
+.my-skills-heading{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  text-transform: uppercase;
+  color: rgba(251, 246, 246, 0.96);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
